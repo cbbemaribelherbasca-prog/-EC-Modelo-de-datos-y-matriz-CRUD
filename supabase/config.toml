@@ -1,0 +1,19 @@
+# Configuración mínima. Antes de subirla al remoto, revisar config diff.
+project_id = "tenis-urbano"
+
+[db]
+major_version = 17
+
+[db.migrations]
+enabled = true
+schema_paths = []
+
+[db.seed]
+enabled = false
+sql_paths = []
+
+[auth]
+enabled = true
+site_url = "https://cbbemaribelherbasca-prog.github.io/Tenis-Urbano/"
+additional_redirect_urls = ["http://127.0.0.1:5173", "https://cbbemaribelherbasca-prog.github.io/Tenis-Urbano/"]
+enable_anonymous_sign_ins = true
